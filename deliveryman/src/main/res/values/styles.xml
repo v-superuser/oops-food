@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPanelPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FloatLabel" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPanelPrimary</item>
+        <item name="colorError">@color/colorBodyPrimary</item>
+        <item name="android:textColorHint">@color/colorPanelPrimary</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="FloatLabelSignInUp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorBodyPrimary</item>
+        <item name="colorError">@color/colorPanelPrimary</item>
+        <item name="android:textColorHint">@color/colorBodyPrimary</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@color/colorPanelPrimary</item>
+        <item name="colorControlNormal">@color/colorBodyPrimary</item>
+        <item name="colorControlActivated">@color/colorBodyPrimary</item>
+    </style>
+
+    <style name="BackGroundImageView">
+        <item name="android:alpha">0.85</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@mipmap/food_wallpaper4</item>
+    </style>
+
+</resources>

@@ -1,0 +1,53 @@
+<resources>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPanelPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPanelPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BackGroundImageView">
+        <item name="android:alpha">0.85</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/empty_background</item>
+    </style>
+
+    <style name="FloatLabel" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPanelPrimary</item>
+        <item name="colorError">@color/colorBodyPrimary</item>
+        <item name="android:textColorHint">@color/colorPanelPrimary</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="FloatLabelSignInUp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorBodyPrimary</item>
+        <item name="colorError">@color/colorPanelPrimary</item>
+        <item name="android:textColorHint">@color/colorBodyPrimary</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@color/colorPanelPrimary</item>
+        <item name="colorControlNormal">@color/colorBodyPrimary</item>
+        <item name="colorControlActivated">@color/colorBodyPrimary</item>
+    </style>
+
+
+    <style name = "FullScreenDialog" parent = "Theme.MaterialComponents.DialogWhenLarge">
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name = "windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/Animation.AppCompat.DropDownUp</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorStarsRatingBar</item>
+    </style>
+</resources>

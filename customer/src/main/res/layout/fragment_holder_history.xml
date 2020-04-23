@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".History.Holder_history">
+
+    <ExpandableListView
+        android:id="@+id/reservationslv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:dividerHeight="2dp"
+        android:padding="3dp"
+        tools:listitem="@layout/layout_reservation_group"/>
+
+    <ImageView
+        android:id="@+id/history_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:src="@drawable/empty_mail"
+        android:alpha=".5"
+        android:scaleType="fitCenter"
+        android:visibility="gone"/>
+
+</FrameLayout>
