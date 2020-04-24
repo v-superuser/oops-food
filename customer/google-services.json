@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "273800882663-mifi7t5r8h168h13qerl8ef4h7pv237q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vaibhav.foody",
+            "certificate_hash": "e0c62f76e8437599bbbcbf8e52e773ccfaac2a43"
+          }
+        },
+        {
           "client_id": "273800882663-1i66j7fq1p6ketj06nsnokth9pja2k23.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

@@ -419,15 +419,8 @@ public class SignUpActivity extends AppCompatActivity {
             addresses = geocoder.getFromLocationName(address, 1);
 
             if(addresses.size() > 0) {
-                if(addresses.get(0).getThoroughfare() == null) {
-                    wrongField = true;
-                    myToast.setText(R.string.no_address);
-                    myToast.show();
-                }
-                else {
-                    latitude = addresses.get(0).getLatitude();
-                    longitude = addresses.get(0).getLongitude();
-                }
+                latitude = addresses.get(0).getLatitude();
+                longitude = addresses.get(0).getLongitude();
             }
             else {
                 wrongField = true;
